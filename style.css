@@ -1,19 +1,59 @@
 body {
   background-color: rgb(253, 251, 251);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 20px;
+  font-size: 20px;
+}
+
+#titulo, h1 {
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: aliceblue;
 }
 
 header {
   position: fixed;
   top: 0;
+  background-color: palevioletred;
 }
 
 #minha_foto {
+  display: block;
   max-width: 500px;
   max-height: 400px;
   width: auto;
   height: auto;
+  margin-top: 100px;
+}
+
+nav, img {
+  display: block;
+}
+
+#licoes_aprendidas {
+  display: inline-block;
+}
+
+#licoes_a_aprender {
+  display: inline-block;
 }
 
 #rodape {
+  margin-top: 30px;
   text-align: right;
+}
+
+.lado-esquerdo {
+  display: inline-block;
+  width: 40%;
+}
+
+.lado-direito {
+  display: inline-block;
+  width: 40%;
+}
+
+section {
+  clear: both;
+  margin-top: 30px;
 }
