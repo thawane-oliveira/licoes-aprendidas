@@ -13,3 +13,7 @@ header {
   width: auto;
   height: auto;
 }
+
+#rodape {
+  text-align: right;
+}
