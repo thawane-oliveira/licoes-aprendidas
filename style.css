@@ -5,28 +5,40 @@ body {
   font-size: 20px;
 }
 
-#titulo, h1 {
+h2 {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+#titulo {
   text-align: center;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: aliceblue;
 }
 
-header {
+#cabecalho {
+  margin-left: 690px;
+  display: block;
+  padding: 4px;
+  border: 2px aliceblue;
+  border-style: dotted;
   position: fixed;
   top: 0;
   background-color: palevioletred;
 }
 
 #minha_foto {
+  margin-left: 690px;
   display: block;
   max-width: 500px;
   max-height: 400px;
   width: auto;
   height: auto;
   margin-top: 100px;
+  margin-bottom: 50px;
 }
 
-nav, img {
+nav , img {
   display: block;
 }
 
@@ -46,6 +58,7 @@ nav, img {
 .lado-esquerdo {
   display: inline-block;
   width: 40%;
+  margin-left: 200px;
 }
 
 .lado-direito {
@@ -56,4 +69,13 @@ nav, img {
 section {
   clear: both;
   margin-top: 30px;
+}
+
+nav {
+  margin-left: 690px;
+}
+
+table , th , td {
+  border: 1px solid black;
+  margin-left: 600px;
 }
